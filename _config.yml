@@ -6,8 +6,8 @@
 # Site
 title: Best Practice Developer
 subtitle: Useful Practices & Tech News
-description: Information Technology, Computer Science, Software Enginner, Best Practices, Machine Learning, AI, Python, etc.
-author: Best practice Developer
+description: Everything about a best practiced developer.
+author: Best Practice Developer
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -80,7 +80,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Information Technology, Computer Science, Software Enginner, Best Practices, Machine Learning, AI, Python, etc."
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
