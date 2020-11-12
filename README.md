@@ -1,37 +1,171 @@
-## Welcome to GitHub Pages
+# NexT
 
-You can use the [editor on GitHub](https://github.com/bestpracticedeveloper/bestpracticedeveloper.github.com/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+> NexT is a high quality elegant [Jekyll](https://jekyllrb.com) theme ported from [Hexo NexT](https://github.com/iissnan/hexo-theme-next). It is crafted from scratch, with love.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+ * [Live Preview](http://simpleyyt.github.io/jekyll-theme-next/)
+ * [Yitao's Blog](http://simpleyyt.com)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Screenshots
 
-```markdown
-Syntax highlighted code block
+* Desktop
+![Desktop Preview](http://iissnan.com/nexus/next/desktop-preview.png)
 
-# Header 1
-## Header 2
-### Header 3
+* Sidebar
 
-- Bulleted
-- List
+![Desktop Sidebar Preview](http://iissnan.com/nexus/next/desktop-sidebar-preview.png)
 
-1. Numbered
-2. List
+* Sidebar (Post details page)
 
-**Bold** and _Italic_ and `Code` text
+![Desktop Sidebar Preview](http://iissnan.com/nexus/next/desktop-sidebar-toc.png)
 
-[Link](url) and ![Image](src)
+* Mobile
+
+![Mobile Preview](http://iissnan.com/nexus/next/mobile.png)
+
+
+## Installation
+
+Check whether you have `Ruby 2.1.0` or higher installed:
+
+```sh
+ruby --version
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Install `Bundler`:
 
-### Jekyll Themes
+```sh
+gem install bundler
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bestpracticedeveloper/bestpracticedeveloper.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Clone NexT theme:
 
-### Support or Contact
+```sh
+git clone https://github.com/Simpleyyt/jekyll-theme-next.git
+cd jekyll-theme-next
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Install Jekyll and other dependencies from the GitHub Pages gem:
+
+```sh
+bundle install
+```
+
+Run your Jekyll site locally:
+
+```sh
+bundle exec jekyll server
+```
+
+More Details：[Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+
+
+## Features
+
+### Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese.
+
+Default language is English.
+
+```yml
+language: en
+# language: zh-Hans
+# language: fr-FR
+# language: zh-hk
+# language: zh-tw
+# language: ru
+# language: de
+```
+
+Set `language` field as following in site `_config.yml` to change to Chinese.
+
+```yml
+language: zh-Hans
+```
+
+### Comment support.
+
+NexT has native support for `DuoShuo` and `Disqus` comment systems.
+
+Add the following snippets to your `_config.yml`:
+
+```yml
+duoshuo:
+  enable: true
+  shortname: your-duoshuo-shortname
+```
+
+OR
+
+```yml
+disqus_shortname: your-disqus-shortname
+```
+
+### Social Media
+
+NexT can automatically add links to your Social Media accounts:
+
+```yml
+social:
+  GitHub: your-github-url
+  Twitter: your-twitter-url
+  Weibo: your-weibo-url
+  DouBan: your-douban-url
+  ZhiHu: your-zhihu-url
+```
+
+### Feed link.
+
+> Show a feed link.
+
+Set `rss` field in theme's `_config.yml`, as the following value:
+
+1. `rss: false` will totally disable feed link.
+2. `rss:  ` use sites' feed link. This is the default option.
+
+    Follow the installation instruction in the plugin's README. After the configuration is done for this plugin, the feed link is ready too.
+
+3. `rss: http://your-feed-url` set specific feed link.
+
+### Up to 5 code highlight themes built-in.
+
+NexT uses [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme) with 5 themes for you to choose from.
+Next use `normal` by default. Have a preview about `normal` and `night`:
+
+![Tomorrow Normal Preview](http://iissnan.com/nexus/next/tomorrow-normal.png)
+![Tomorrow Night Preview](http://iissnan.com/nexus/next/tomorrow-night.png)
+
+Head over to [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme) for more details.
+
+## Configuration
+
+NexT comes with few configurations.
+
+```yml
+
+# Menu configuration.
+menu:
+  home: /
+  archives: /archives
+
+# Favicon
+favicon: /assets/favicon.ico
+
+# Avatar (put the image into next/source/images/)
+# can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)
+avatar: /assets/default_avatar.png
+
+# Code highlight theme
+# available: normal | night | night eighties | night blue | night bright
+highlight_theme: normal
+
+# Fancybox for image gallery
+fancybox: true
+
+# Specify the date when the site was setup
+since: 2013
+
+```
+
+## Browser support
+
+![Browser support](http://iissnan.com/nexus/next/browser-support.png)
