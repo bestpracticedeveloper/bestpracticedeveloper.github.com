@@ -4,17 +4,16 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Best Practice Developer
-subtitle: Useful Practices & Tech News
-description: Everything about a best practiced developer.
-author: Best Practice Developer
+title: Wall Rear
+subtitle: News behind the Wall
+author: wallrear
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://bestpracticedeveloper.github.io
+url: https://wallrear.github.io
 baseurl:
 permalink: pretty
 
@@ -80,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Information Technology, Computer Science, Software Enginner, Best Practices, Machine Learning, AI, Python, etc."
+keywords: "Information Technology, Computer Science, Software Enginner, News, Machine Learning, AI, Python, etc."
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
