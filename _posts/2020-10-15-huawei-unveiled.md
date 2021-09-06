@@ -2,6 +2,7 @@
 layout: post
 title: Huawei Unveiled Latest 5G Solution
 date: 2020-11-15
+published: false
 ---
 
 The eleventh 2020 Global Mobile Broadband Forum was held in Shanghai yesterday. "China has the world's best 5G network." Huawei Vice Chairman Hu Houkun said that China has deployed more than 600,000 base stations and achieved 160 million connections.
