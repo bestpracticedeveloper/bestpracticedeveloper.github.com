@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TutorEva: Your Next Tutor Is A Genshin-style AI Now
+title: TutorEva, Your Next Tutor Is A Genshin-style AI Now
 date: 2023-04-17
 published: true
 ---
